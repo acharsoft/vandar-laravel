@@ -4,7 +4,7 @@ laravel library for vandar gateway
 ## Installation  
 ### step 1  
 run this command :  
-``composer require rfmhb2/vandar-laravel``  
+``composer require acharsoft/vandar-laravel``  
 ### step 2  
 add this to ``config/services.php``   
 ```php 
