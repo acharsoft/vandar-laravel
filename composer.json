@@ -1,12 +1,12 @@
 {
-  "name": "rfmhb2/vandar-laravel",
+  "name": "acharsoft/vandar-laravel",
   "description": "laravel library for vandar gateway",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Mohammad Hassan Rezaie tabar",
-      "email": "mohammadhassanbolivand@gmail.com"
+      "name": "Mobin Poursalami",
+      "email": "mobinpou@gmail.com"
     }
   ],
   "autoload": {
