@@ -7,7 +7,7 @@ use Vandar\Driver\RestDriver;
 
 class Vandar
 {
-    private $redirectUrl = "https://vandar.io/ipg/";
+    private $redirectUrl = "https://vandar.io/ipg/2step/";
     private $api;
     private $driver;
     private $token;
