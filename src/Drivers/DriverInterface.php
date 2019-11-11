@@ -7,6 +7,8 @@ interface DriverInterface
     public function request($inputs);
 
     public function verify($token, $api);
+    
+    public function confirm($token, $api);
 
     public function setAddress($url);
 
