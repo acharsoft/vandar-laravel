@@ -26,7 +26,7 @@ class RestDriver implements DriverInterface
         $result = $this->restCall("confirm", [
             'api_key' => $api,
             'token' => $token,
-            'confirm' => 1,
+            'confirm' => true,
         ]);
         return json_decode($result, true);
     }
