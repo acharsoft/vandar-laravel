@@ -42,6 +42,11 @@ class Vandar
     {
         return $this->driver->verify($token, $this->api);
     }
+    
+    public function confirm($token)
+    {
+        return $this->driver->confirm($token, $this->api);
+    }
 
     public function redirect()
     {
