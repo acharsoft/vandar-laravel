@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @method static request($amount, $mobile = null, $factorNumber = null, $description = null, $callback)
  * @method static verify($token)
+ * @method static transaction($token)
  * @method static confirm($token)
  * @method static redirect()
  * @method static redirectUrl()
